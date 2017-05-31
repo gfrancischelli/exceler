@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "db-converter.js",
+  "watch": {
+    "test": "test/**/*.js"
+  },
   "scripts": {
-    "test": "tap-prettify"
+    "test": "tap-prettify ./test/**/*.js",
+    "watch": "npm-watch"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +19,9 @@
     "sanitize-filename": "^1.6.1"
   },
   "devDependencies": {
-    "tape": "^4.6.3"
+    "npm-watch": "^0.1.9",
+    "tap-prettify": "0.0.2",
+    "tape": "^4.6.3",
+    "tape-promise": "^2.0.1"
   }
 }
