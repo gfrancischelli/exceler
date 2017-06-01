@@ -14,12 +14,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sanitize-filename": "^1.6.1"
+    "xlso": "^1.0.2",
+    "xlsx": "^0.10.3",
   },
   "devDependencies": {
     "excel-as-json": "^2.0.1",
-    "fs-extra": "^3.0.1",
-    "json2xls": "^0.1.2",
     "npm-watch": "^0.1.9",
     "tap-prettify": "0.0.2",
     "tape": "^4.6.3",
